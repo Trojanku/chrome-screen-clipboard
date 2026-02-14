@@ -17,9 +17,10 @@ Chrome extension (Manifest V3) to:
 
 1. Open a normal website tab (`https://...`).
 2. Click the extension icon.
-3. Draw on the opened screenshot editor.
-4. Click `Copy to Clipboard`.
-5. Paste with `Ctrl+V` where needed.
+3. Choose `Tool: Brush` or `Tool: Rectangle`.
+4. Draw on the opened screenshot editor.
+5. Click `Copy to Clipboard`.
+6. Paste with `Ctrl+V` where needed.
 
 ## Troubleshooting
 
