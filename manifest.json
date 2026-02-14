@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "OpenClaw Screenshot Annotator",
+  "name": "Chrome Screenshot Annotator",
   "version": "0.1.0",
   "description": "Capture current page, draw annotations, and copy result to clipboard.",
   "permissions": ["tabs", "storage", "clipboardWrite", "activeTab"],
