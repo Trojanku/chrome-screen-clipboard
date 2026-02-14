@@ -1,0 +1,81 @@
+:root {
+  --bg: #f2f4f8;
+  --panel: #ffffff;
+  --border: #d8dde7;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #0c66e4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #eef2f7 0%, #e8edf5 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toolbar label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+button {
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+#copyBtn {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+#status {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.stage-wrap {
+  padding: 16px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px solid var(--border);
+  background: #fff;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
