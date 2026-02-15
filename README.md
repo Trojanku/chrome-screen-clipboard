@@ -1,5 +1,7 @@
 # 📸 chrome-screen-clipboard
 
+<img width="1080" height="608" alt="screenshot-1080x608 (2)" src="https://github.com/user-attachments/assets/96463614-7b53-4ace-84c2-18898903f6cb" />
+
 Chrome extension (Manifest V3) that lets you screenshot, annotate, and copy — all without leaving your browser.
 
 1. 🖼️ Capture the current visible tab as a screenshot
