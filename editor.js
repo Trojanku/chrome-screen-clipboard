@@ -21,7 +21,7 @@ let rectangleSnapshot = null;
 
 function setStatus(message, isError = false) {
   statusEl.textContent = message;
-  statusEl.style.color = isError ? "#b91c1c" : "#374151";
+  statusEl.style.color = isError ? "#f87171" : "#8b8fa3";
 }
 
 function redrawBaseImage() {

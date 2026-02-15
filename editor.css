@@ -1,10 +1,10 @@
 :root {
-  --bg: #f2f4f8;
-  --panel: #ffffff;
-  --border: #d8dde7;
-  --text: #111827;
-  --muted: #6b7280;
-  --accent: #0c66e4;
+  --bg: #0f1117;
+  --panel: #1a1d27;
+  --border: #2d3143;
+  --text: #e4e6ed;
+  --muted: #8b8fa3;
+  --accent: #4d8eff;
 }
 
 * {
@@ -15,7 +15,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #eef2f7 0%, #e8edf5 100%);
+  background: linear-gradient(180deg, #0f1117 0%, #141722 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ body {
 
 button {
   border: 1px solid var(--border);
-  background: #fff;
+  background: #222533;
   color: var(--text);
   padding: 6px 10px;
   border-radius: 6px;
@@ -60,6 +60,11 @@ button:hover {
   color: #fff;
 }
 
+#copyBtn:hover {
+  background: #3a7aee;
+  border-color: #3a7aee;
+}
+
 #status {
   font-size: 13px;
   color: var(--muted);
@@ -74,9 +79,9 @@ button:hover {
 
 canvas {
   border: 1px solid var(--border);
-  background: #fff;
+  background: #1a1d27;
   max-width: 100%;
   height: auto;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   touch-action: none;
 }
